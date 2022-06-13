@@ -11,7 +11,7 @@ Source:         %{name}-%{version}.tar.gz
 BuildRoot:      %{_localstatedir}/tmp/%{name}-root
 BuildArch:      noarch
 #AutoReqProv: 	no
-Requires:       oscar-base-lib > 6.0.2
+Requires:       liboscar-server >= 6.3
 Requires:       packman
 Obsoletes:	oscarv
 
